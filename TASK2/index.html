@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <div class="logo-icon">BT</div>
+                    <div class="logo-text">Balla Tejusvardhan</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#" id="toggle-intro">Home</a></li>
+                        <li><a href="#" id="toggle-skills">Skills</a></li>
+                        <li><a href="#" id="qualifications-button">Qualifications</a></li>
+                        <li><a href="#" id="certifications-button">Certifications</a></li>
+                        <li><a href="#" id="resume-button">Resume</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="intro-container" class="container">
+                <div class="hero-pic">
+                    <img src="images/main_photo.jpg" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'm <span class="input"></span></h5>
+                    <h1>Balla Tejusvardhan</h1>
+                    <p>Passionate about Computer Science and Engineering, 
+                        I'm eager to apply my skills in real-world projects. 
+                        Excited to contribute to software development, system design,
+                        and problem-solving while learning and growing along the way.
+                    </p>
+                    <div class="btn-group">
+                        <a href="https://drive.google.com/uc?export=download&id=15-HUFX8COCo-CetOEXNKm9SsSB6XBr4M" class="btn" target="_blank">Download CV</a>
+                        <a href="https://wa.me/qr/TZJZMB7CFABKC1" class="btn">Contact</a>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100008924195639&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/tejus-vardhan-90b2a32a7" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/tejasxx_/?utm_source=qr" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Tejasxx" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div id="skills-container" class="skills-container hidden">
+                <div class="skills">
+                    <h2>My Skills</h2>
+                    <div class="skill">
+                        <div class="skill-name">C</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                        <div class="skill-percentage">90%</div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">C++</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                        <div class="skill-percentage">90%</div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">Python</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                        <div class="skill-percentage">80%</div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">Java</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                        <div class="skill-percentage">80%</div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">HTML</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                        <div class="skill-percentage">90%</div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">CSS</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                        <div class="skill-percentage">90%</div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">MySQL</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
+                        </div>
+                        <div class="skill-percentage">85%</div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">Bootstrap</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                        <div class="skill-percentage">80%</div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">ReactJS</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%;"></div>
+                        </div>
+                        <div class="skill-percentage">60%</div>
+                    </div>
+                </div>
+            </div>
+            <div id="resume-container" class="hidden">
+                <embed src="path_to_your_cv.pdf" type="application/pdf" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
